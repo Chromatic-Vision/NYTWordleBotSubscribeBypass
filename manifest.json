@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "NYTWordleBotSubscribeBypass",
+  "version": "0.0.1",
+  "description": "Removes the annoying subscribe popup before analogizing your today's Wordle",
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.nytimes.com/interactive/*/upshot/wordle-bot.html"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'self' 'wasm-unsafe-eval';"
+  }
+}
