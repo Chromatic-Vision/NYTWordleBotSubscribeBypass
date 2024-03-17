@@ -1,5 +1,5 @@
 # NYTWordleBotSubscribeBypass
-Removes the annoying subscribe popup before analogizing your today's Wordle.
+Chrome/Firefox extension that removes the annoying subscribe popup before analogizing your today's Wordle.
 
 ## How to use
 - Download this repository as zip, and unpack it.
