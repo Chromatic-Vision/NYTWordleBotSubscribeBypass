@@ -1,7 +1,3 @@
-if (typeof browser === "undefined") {
-    var browser = chrome;
-}
-
 function inject() {
 
     console.log("Removing standalone footer...");

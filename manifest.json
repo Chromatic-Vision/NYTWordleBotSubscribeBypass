@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "NYTWordleBotSubscribeBypass",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Removes the annoying subscribe popup before analogizing your today's Wordle",
   "permissions": ["activeTab", "storage"],
   "content_scripts": [
