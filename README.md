@@ -4,4 +4,4 @@ Chrome/Firefox extension that removes the annoying subscribe popup before analog
 ## How to use
 - Download this repository as zip, and unpack it.
 - If you are using chrome, go to chrome://extension and enable developer mode.
-- Click on "Load unpacked" button, and select the extracted folder. 
+- Click on "Load unpacked" button, and select the extracted folder.
